@@ -1,0 +1,24 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "es6": true,
+    "commonjs": true,
+    "node": true
+  },
+  "rules": {
+    "indent": ["error", 2],
+    "quotes": [
+      "error",
+      // "single",//单引号
+      "double", //双引号
+      {
+        "allowTemplateLiterals": true
+      }
+    ],
+    "semi": [
+      "error",
+      //"never" //不能分号结尾
+      "always" //分号结尾
+    ]
+  }
+}
